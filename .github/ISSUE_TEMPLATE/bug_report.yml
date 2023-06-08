@@ -47,13 +47,10 @@ body:
           description: Please describe the issue
       validations:
           required: true
-      - type: textarea
-        id: screenshot
-        attributes:
+    - type: textarea
+      id: screenshot
+      attributes:
           label: "Screenshots"
           description: add screenshots to help explain your problem
-          value: |
-            ![DESCRIPTION](LINK.png)
-          render: bash
-        validations:
-        required: false
+      validations:
+          required: false
