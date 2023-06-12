@@ -47,10 +47,3 @@ body:
           description: Please describe the issue
       validations:
           required: true
-    - type: textarea
-      id: screenshot
-      attributes:
-          label: "Screenshots"
-          description: add screenshots to help explain your problem
-      validations:
-          required: false
